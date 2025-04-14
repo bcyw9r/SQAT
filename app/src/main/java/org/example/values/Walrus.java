@@ -9,6 +9,7 @@ public class Walrus {
     public Boolean hasEaten(WalrusFood food) {
         return stomach.contains(food);
     }
+// Updated for submission
 
     public void addToStomach(WalrusFood food) {
         stomach.add(food);
